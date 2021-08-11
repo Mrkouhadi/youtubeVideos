@@ -7,7 +7,7 @@ import useVideos from './hooks/useVideos';
 ///APP 
 const App =()=> {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [videos, search] = useVideos('shanghai 8k'); // our custom hook
+  const [videos, search] = useVideos('new york city 8k'); // our custom hook
   
   // setSelectedVideo(response.data.items[0]);
   useEffect(()=>{
