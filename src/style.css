@@ -78,7 +78,8 @@ iframe{
 
 }
 .details__box{
-    color: #fff;
+    color: rgb(82, 57, 122);
+    
 }
 .details__box h2{
     font-size: 24px;
